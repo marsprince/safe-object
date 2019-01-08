@@ -1,0 +1,12 @@
+{
+  "name": "safe-object",
+  "version": "1.0.0",
+  "description": "a tool for safe get and set object",
+  "main": "dist/index.js",
+  "repository": "https://github.com/marsprince/safe-object",
+  "author": "bit_liujia@renrenche.com",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^3.2.2"
+  }
+}
