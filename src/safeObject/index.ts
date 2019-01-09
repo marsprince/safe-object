@@ -1,4 +1,4 @@
-import { strOrNum } from './@types';
+import { strOrNum } from '../@types';
 
 const nullOrUndefined = (val) => {
   return val === null || typeof val === 'undefined';
