@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "module": "esnext",
+    "module": "commonjs",
     "removeComments": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
@@ -8,8 +8,12 @@
     "outDir": "./dist",
     "rootDir": "./src",
     "skipLibCheck": true,
-    "lib": ["es6"],
-    "declaration": false
+    "lib": ["dom","es5","es6"],
+    "declaration": false,
+    "typeRoots": [
+      "./node_modules/@types",
+      "./src/@types"
+    ]
   },
   "include": [
     "src/**/*"
@@ -17,5 +21,5 @@
   "exclude": [
     "node_modules",
     "**/*.spec.ts"
-  ]
+  ],
 }
