@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
+    "module": "esnext",
     "removeComments": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
