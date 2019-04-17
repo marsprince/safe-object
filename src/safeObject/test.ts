@@ -1,17 +1,7 @@
-import { SafeObject } from './index';
+import {safeObject} from './index'
 
-interface IY {
-  z?: string
-}
+const mm: any = {};
 
-interface Itest {
-  y?: IY
-}
-
-
-const mm: Itest = {};
-
-const test = new SafeObject(mm);
-
-test.set(2,'y','z')
-console.log(mm)
+const safe = safeObject(mm);
+safe.x.y.z = 1
+console.log(safe)
